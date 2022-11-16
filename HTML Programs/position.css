@@ -1,0 +1,51 @@
+body
+    {
+       height: 2000px;
+        
+    }
+#section1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    background-color: coral;
+}
+#section2
+{
+    position: relative;
+    top: 300;
+    right: 0;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+#section3
+{
+    position: fixed;
+    top: 500;
+    left: 1000;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+#section4
+{
+    position: sticky;
+    bottom: 500;
+    left: 1000;
+    right: 500;
+    width: 750px;
+    height: 250px;
+    background-color: deeppink;
+}
+#section5
+{
+    position: relative;
+    left: 100;
+    width: 300px;
+    height: 400px;
+    background-color: green;
+}

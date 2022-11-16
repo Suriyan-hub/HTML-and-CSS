@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTML FORM ATTRIBUTES</title>
+    </head>
+    <body>
+        <h2>HTML FORMS</h2>
+        <form action="file:///D:/KOMPETENZEN/fORM%20MODEL%201.html" target="_blank" method="post"autocomplete="on" novalidate>
+              <!-- HTML FORMS ELEMENTS-->
+              <!--LABEL & INPUT ELEMENTS-->
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="any name" value="Jacob" readonly><br><br>
+        
+        <!--read only attribute-->
+        <!--input type attribute size-->
+            <label for="pin">PIN:</label><br>
+            <input type="text" id="pin" name="pin" size="4"><br><br>
+        <!--select-->
+            <label for="media">Choose a social media:</label><br><br>
+            <select id="media" name="media" size="3" multiple>
+                <option value="FB" selected>Facebook</option>
+                <option value="I"> Instagram</option>
+                <option value="Whapp">Whatsapp</option>
+                <option value="Skyp">Skype</option>
+            </select><br><br>
+        <!--Text Area-->
+            <label for="ta">Text Area:</label><br><br>
+            <textarea name="msg" rows="10" cols="20">
+                This Is a Sample Program.</textarea><br><br>
+        <!--Fiels set-->
+            <fieldset style="width: 20%;">
+            <legend>Contact:</legend>
+            <label for="phno">Home No:</label>
+            <input type="text" id="phno" name="phno1" value=""disabled><br><br>
+            <label for="phno2">Office No:</label>
+            <input type="text" id="phno2" name="phno" value=""required><br><br>
+            </fieldset><br><br>
+        <!--data list-->
+            <label for="datalist">Items:</label>
+            <input list="mobiles" name="mobiles">
+            <datalist id="mobiles">
+                <option value="Oppo">
+                <option value="Mi">
+                <option value="Nokia">
+                <option value="Realme">
+                <option value="iphone">                
+            </datalist>
+        <!--Pattern-->
+            <label for="code">Code:</label>
+            <input type="text" id="code" name="code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+        <!--Place holder-->    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <!--Button-->
+            <button type="button" onclick="alert('Hello Everyone')">Click</button><br><br>
+            <input type="submit" value="OK" style="width:5%; background-color: red; text color: darkgreen; font-size: 20px">
+        </form>
+    </body>
+</html>

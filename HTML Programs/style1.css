@@ -1,0 +1,12 @@
+body{
+    height: 2000px;
+}
+#section1
+{
+    position:sticky;
+    top:0px;
+    left:0px;
+    width:500px;
+    height:300px;
+    background-color: crimson;
+}

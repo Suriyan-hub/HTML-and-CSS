@@ -1,0 +1,60 @@
+body
+    {
+       height: 2000px;
+        
+    }
+#section1
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 250px;
+    background-color: darkred;
+}
+#section2
+{
+    position: absolute;
+    top: 45;
+    left: 60;
+    width: 500px;
+    height: 175px;
+    background-color: green;
+}
+
+#section3
+{
+    position: absolute;
+    top: 70;
+    left: 110;
+    width: 400px;
+    height: 125px;
+    background-color: deeppink;
+}
+#section4
+{
+    position: fixed;
+    top: 7;
+    right: 7;
+    width: 600px;
+    height: 250px;
+    background-color: darkred;
+}
+
+#section5
+{
+    position: absolute;
+    top: 45;
+    right: 53;
+    width: 500px;
+    height: 175px;
+    background-color: green;
+}
+#section6
+{
+    position: absolute;
+    top: 70;
+    right: 110;
+    width: 400px;
+    height: 125px;
+    background-color: deeppink;
