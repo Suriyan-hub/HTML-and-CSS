@@ -1,0 +1,10 @@
+table,th,tr,td{border: solid 5px black;
+background-color: yellow;
+color:pink;
+border-collapse: collapse;
+padding:7px }
+table{width:5px;}
+
+
+.yyclass{color: coral;}
+span{color: deeppink;}
